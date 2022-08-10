@@ -9,12 +9,12 @@ Misc Notes:
 
 First project using python to practice OOP and doubly linked list.
 
-A snake is stored as a linked list of segments which contains a head, a tail, and corners where the snake has turned. Each segment contains coordinate and direction attribute.
+A snake is stored as a linked list of segments which contains a head, a tail, and corners where the snake has turned. Each segment contains coordinate and direction attribute. Linked list should be nice as pop and add to beginning works for snake movement.
 
 When moving, head and tail segment coordinates are modified. If the tail passes the second last segment, pop the tail.
 
 When changing directions or eating an apple, add a new head to the beginning of the list.
 
-Create and update a set of all snake coordinates and check after each movement is head is in the set to determine when the snake eats itself.
+Create and update a set of all snake coordinates. Check after each movement if head is in the set to determine when the snake eats itself.
 
-Snakes are drawn as connecting lines, extrapolating all segments from the segments stored in the linked list.
+Snakes are drawn as lines connecting each segment stored in the linked list.
